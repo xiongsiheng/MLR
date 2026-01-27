@@ -1,0 +1,10 @@
+accelerate==0.33.0
+torch==2.1.2
+transformers==4.43.3
+torchvision==0.16.2
+trl==0.9.6
+datasets==2.20.0
+safetensors==0.4.3
+tqdm==4.66.5
+peft==0.12.0
+wandb==0.17
