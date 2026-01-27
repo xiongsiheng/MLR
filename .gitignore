@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv_*/
+venv/
+env/
+
+# Locally installed toolchains (bundled CUDA, micromamba, tokenizer workarounds)
+.cuda/
+.cuda[0-9]*/
+.tools/
+.tokenizer_compat/
+
+# Model weights — download from Hugging Face, see README
+model_weights/
+
+# Run artifacts
+outputs/
+logs/
+smoke_outputs*/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
