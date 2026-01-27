@@ -1,0 +1,11 @@
+openai>=2.6,<3
+peft>=0.13,<1
+pylatexenc>=2.10,<3
+safetensors>=0.4,<1
+# Verified against 0.4.6.post5.  The planner uses grammar-constrained decoding,
+# whose backend behaviour differs across sglang releases, so pin to the tested
+# minor version rather than tracking the latest.
+sglang[all]>=0.4.6,<0.5
+sympy>=1.12,<2
+torch>=2.4,<3
+transformers>=4.48,<5
