@@ -1,3 +1,5 @@
+
+
 # MLR: Enhancing Language Model Reasoning with Structured Multi-Level Modeling
 
 This repository contains the code for the paper [ICLR 26] [Enhancing Language Model Reasoning with Structured Multi-Level Modeling](https://proceedings.iclr.cc/paper_files/paper/2026/file/3db7d123a316fc690f02818b21967af4-Paper-Conference.pdf).
@@ -26,7 +28,7 @@ MLR/
 ├── model_weights/
 ├── scripts/
 ├── src/
-└── output/
+└── outputs/
 ```
 
 ## Setup
